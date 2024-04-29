@@ -79,20 +79,21 @@
 		<ChangeType type="default"/>
 		<!-- Length len="8"/ -->
 		<Length len="15"/>
-		<OffsetCount count="10"/>
+		<OffsetCount count="11"/>
 		<Offset>
 			<Offset0 value="0"/>
 			<Offset1 value="1"/>
 			<Offset2 value="2"/>
 			<Offset3 value="3"/>
-			<Offset4 value="7"/>			
-			<Offset5 value="9"/>
-			<Offset6 value="10"/>
-			<Offset7 value="11"/>
-			<Offset8 value="12"/>
-			<Offset9 value="13"/>
+			<Offset4 value="7"/>
+			<Offset5 value="8"/>
+			<Offset6 value="9"/>
+			<Offset7 value="10"/>
+			<Offset8 value="11"/>
+			<Offset9 value="12"/>
+			<Offset10 value="13"/>
 		</Offset>
-		<ChangesCount count="10"/>
+		<ChangesCount count="11"/>
 		<Changes>
 			<!-- Hexadecimal value -->
 			<!-- Advertising Power Level -->			
@@ -105,16 +106,18 @@
 			<Changes3 value="0x09"/>
 			<!-- MultiAdv high Tx Power Level -->
 			<Changes4 value="0x09"/>
+			<!-- MultiAdv max Tx Power Level -->
+			<Changes5 value="0x09"/>
 			<!-- max PL individual phy enable -->
-			<Changes5 value="0x01"/>			
+			<Changes6 value="0x01"/>			
 			<!-- 1M PHY max PL -->
-			<Changes6 value="0x09"/>
-			<!-- 2M PHY max PL -->
 			<Changes7 value="0x09"/>
+			<!-- 2M PHY max PL -->
+			<Changes8 value="0x09"/>
 			<!-- 125k coded phy max PL -->
-			<Changes8 value="0x09"/>			
+			<Changes9 value="0x09"/>			
 			<!-- 500k coded phy max PL -->
-			<Changes9 value="0x09"/>
+			<Changes10 value="0x09"/>
 		</Changes>
 	</Tag83>
 	<!-- Channel Calibration -->

@@ -1,4 +1,0 @@
-service DisplayQuality-hal /vendor/bin/hw/vendor.samsung.hardware.displayquality-service
-    class hal
-    user system
-    group system
