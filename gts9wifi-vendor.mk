@@ -48,37 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/veml3328_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/veml3328_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6490/WCNSS_qcom_cfg.ini \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b03 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b04 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b05 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b06 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b07 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b08 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b09 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b10 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b11 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b12 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b13 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b14 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b15 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b16 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b17 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b18 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b19 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b20 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/GTS9_ANA38407_AMSA10FA01.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/GTS9_ANA38407_AMSA10FA01.dat \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_sqe.fw \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b00 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b01 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b02 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.elf \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mbn \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mdt \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/abov/a96t396_gts9_wifi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abov/a96t396_gts9_wifi.bin \
@@ -87,29 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/cs35l45-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l45-dsp1-spk-prot-calib.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/cs35l45-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l45-dsp1-spk-prot.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/cs35l45-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l45-dsp1-spk-prot.wmfw \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/gmu_gen70200.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70200.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/hpbtfw21.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/hpbtfw21.tlv \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/hpnv21.b9a:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.b9a \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/hpnv21.b9b:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.b9b \
@@ -123,9 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/hpnv21g.bb7:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.bb7 \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/hpnv21g.bb9:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.bb9 \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/hpnv21g.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21g.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/keyboard_stm/stm32_gts9factory.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/keyboard_stm/stm32_gts9factory.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/keyboard_stm/stm32_gts9family.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/keyboard_stm/stm32_gts9family.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/mfc/mfc_fw_flash.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc/mfc_fw_flash.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/qca6490/amss20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6490/amss20.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/qca6490/bdwlan.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6490/bdwlan.elf \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/qca6490/bdwlan.elf1:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6490/bdwlan.elf1 \
@@ -139,14 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/qca6490/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6490/regdb.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts1ba90a_gts8p.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/tsp_stm/fts1ba90a_gts9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts1ba90a_gts9.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v.mbn \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/vpu30_4v_16mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_16mb.mbn \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/vpu30_4v_16mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_16mb_unsigned.mbn \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/vpu30_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_unsigned.mbn \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v.mbn \
-    vendor/samsung/gts9wifi/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/wez01_gts9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wez01_gts9.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.sec2qcconversion.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/com.samsung.sensor.hi1337.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.hi1337.so \
@@ -252,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/uw_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/uw_dual_calibration.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.camx.chiiqutils.so \
+    vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.chiusecaseselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.chiusecaseselector.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.feature2.afbrckt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.afbrckt.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.so \
@@ -277,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.qseeaon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.qseeaon.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.qseeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.qseeutils.so \
+    vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.settings.sm8550.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.settings.sm8550.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/com.qti.stats.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.stats.common.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/hw/com.qti.chi.offline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.offline.so \
@@ -293,7 +235,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libcamxswispiqmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswispiqmodule.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libchifeature2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchifeature2.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
+    vendor/samsung/gts9wifi/proprietary/vendor/lib64/libhypermotion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion_interface.so \
+    vendor/samsung/gts9wifi/proprietary/vendor/lib64/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecordalive.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libsec2qc_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec2qc_conversion.so \
+    vendor/samsung/gts9wifi/proprietary/vendor/lib64/libsecfr_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecfr_model.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_image_optical_zoom.so \
+    vendor/samsung/gts9wifi/proprietary/vendor/lib64/libvdis.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis.uniplugin@1.0.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so
