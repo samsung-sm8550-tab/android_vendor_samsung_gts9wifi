@@ -239,6 +239,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecordalive.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libsec2qc_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec2qc_conversion.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libsecfr_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecfr_model.so \
+    vendor/samsung/gts9wifi/proprietary/vendor/lib64/libthirdparty_zoomtranslator_imp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthirdparty_zoomtranslator_imp.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_image_optical_zoom.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/libvdis.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis.uniplugin@1.0.so \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
