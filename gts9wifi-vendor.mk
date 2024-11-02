@@ -40,11 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_ak991x_5.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_5.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_bridge_driver_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_bridge_driver_0.json \
-    vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_iot_hdk_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_iot_hdk_dae.json \
-    vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_lsm6dso_0_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_lsm6dso_0_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_veml3328_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_veml3328_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_veml3328_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_veml3328_1.json \
-    vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/veml3328_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/veml3328_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6490/WCNSS_qcom_cfg.ini \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
@@ -93,31 +90,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/com.samsung.tuned.hynix_hi1337.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.hynix_hi1337.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/com.samsung.tuned.hynix_hi1337_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.hynix_hi1337_front.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/com.samsung.tuned.hynix_hi1337_front_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.hynix_hi1337_front_full.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/f_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/f_dual_calibration.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/fdconfigsecure.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigsecure.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/t_t10_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/t_t10_dual_calibration.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/uw_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/uw_dual_calibration.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin
 
 PRODUCT_PACKAGES += \
     com.qti.eeprom.sec2qcconversion \
-    com.samsung.sensor.hi1337 \
-    com.samsung.sensor.hi847 \
-    com.samsung.sensor.imx258 \
-    com.samsung.sensor.imx374 \
-    com.samsung.sensor.imx471 \
-    com.samsung.sensor.imx564 \
-    com.samsung.sensor.imx754 \
-    com.samsung.sensor.s5k2ld \
-    com.samsung.sensor.s5k3j1 \
-    com.samsung.sensor.s5k3k1 \
-    com.samsung.sensor.s5k3lu \
-    com.samsung.sensor.s5kgn3 \
-    com.samsung.sensor.s5khp2 \
     com.qti.eisv2 \
     com.qti.eisv3 \
     com.qti.hvx.addconstant \
@@ -184,7 +162,6 @@ PRODUCT_PACKAGES += \
     com.samsung.node.uniplugin_capture \
     com.samsung.node.uniplugin_preview \
     com.samsung.node.uniplugin_recording \
-    com.samsung.node.uniplugin_vdis \
     com.ss.stats.aec \
     com.ss.stats.af \
     com.ss.stats.awb \
@@ -217,10 +194,6 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.statsregeneration \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
-    com.qti.qseeaon \
-    com.qti.qseeutils \
-    com.qti.settings.sm8550 \
-    com.qti.stats.common \
     com.qualcomm.mcx.distortionmapper \
     camera.qcom \
     com.qti.chi.offline \
@@ -228,22 +201,15 @@ PRODUCT_PACKAGES += \
     libTsAf_TS9Q \
     libTsAwbFront_GTS9 \
     libTsAwb_GTS9 \
-    lib_SamsungRec_07010 \
     libcamerapostproc \
-    libcamxcommonutils \
     libcamxexternalformatutils \
     libcamximageformatutils \
-    libcamxsettingsmanager \
     libcamxswispiqmodule \
     libchifeature2 \
     libcom.qti.chinodeutils \
-    libhypermotion_interface \
-    librecordalive \
     libsec2qc_conversion \
-    libsecfr_model \
     libthirdparty_zoomtranslator_imp \
     libtriplecam_image_optical_zoom \
-    libvdis.uniplugin@1.0 \
     sensors.grip \
     sensors.ssc \
     factory.ssc
