@@ -39,9 +39,9 @@
 			<!-- 8DPSK Max Power / EDR 3M -->
 			<Changes4 value="0x0B"/>
 			<!-- Platform Power Fine Adjust EDR/BR -->
-			<Changes5 value="0x12"/>
+			<Changes5 value="0x00"/>
 			<!-- Platform Power Fine Adjust BLE -->
-			<Changes6 value="0x02"/>
+			<Changes6 value="0x00"/>
 		</Changes>
 	</Tag36>
 	<!-- Debug Control -->
@@ -78,21 +78,46 @@
 	<Tag83>
 		<ChangeType type="default"/>
 		<!-- Length len="8"/ -->
-		<Length len="0"/>
-		<OffsetCount count="4"/>
+		<Length len="15"/>
+		<OffsetCount count="11"/>
 		<Offset>
 			<Offset0 value="0"/>
 			<Offset1 value="1"/>
 			<Offset2 value="2"/>
-			<Offset3 value="7"/>			
+			<Offset3 value="3"/>
+			<Offset4 value="7"/>
+			<Offset5 value="8"/>
+			<Offset6 value="9"/>
+			<Offset7 value="10"/>
+			<Offset8 value="11"/>
+			<Offset9 value="12"/>
+			<Offset10 value="13"/>
 		</Offset>
-		<ChangesCount count="4"/>
+		<ChangesCount count="11"/>
 		<Changes>
 			<!-- Hexadecimal value -->
+			<!-- Advertising Power Level -->
 			<Changes0 value="0x09"/>
+			<!-- Scan Request Power Level -->
 			<Changes1 value="0x09"/>
-			<Changes2 value="0x09"/>
+			<!-- Connection Power Level -->
+			<Changes2 value="0x0A"/>
+			<!-- Broadcaster Power Level -->
 			<Changes3 value="0x09"/>
+			<!-- MultiAdv high Tx Power Level -->
+			<Changes4 value="0x09"/>
+			<!-- MultiAdv max Tx Power Level -->
+			<Changes5 value="0x0A"/>
+			<!-- max PL individual phy enable -->
+			<Changes6 value="0x01"/>			
+			<!-- 1M PHY max PL -->
+			<Changes7 value="0x0A"/>
+			<!-- 2M PHY max PL -->
+			<Changes8 value="0x0A"/>
+			<!-- 125k coded phy max PL -->
+			<Changes9 value="0x09"/>			
+			<!-- 500k coded phy max PL -->
+			<Changes10 value="0x09"/>
 		</Changes>
 	</Tag83>
 	<!-- Channel Calibration -->
@@ -101,38 +126,32 @@
 		<!-- ChangeType type="entire" means that entire data of the NVM tag will be overwritten -->
 		<ChangeType type="entire"/>
 		<!-- Length len="80"/ -->
-		<Length len="0"/>
+		<Length len="80"/>
 		<OffsetCount count="80"/>
 		<ChangesCount count="80"/>
 		<Changes>
-			0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,
-			0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,
-			0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,
-			0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,
+			0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+			0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+			0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+			0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,,
 		</Changes>
 	</Tag87>
 	<!-- SAR backoff index -->
 	<Tag204>
 		<ChangeType type="default"/>
 		<Length len="13"/>
-		<OffsetCount count="4"/>
+		<OffsetCount count="2"/>
 		<Offset>
 	<!-- SAR backoff disable -->
 			<Offset0 value="1"/>
-	<!-- SAR backoff Head enabled -->
-			<Offset1 value="2"/>
-	<!-- SAR backoff NR_only enabled -->
-			<Offset2 value="3"/>
-	<!-- SAR backoff wifi only enabled -->
-			<Offset3 value="5"/>
+	<!-- SAR backoff Grip mode -->
+			<Offset1 value="7"/>
 		</Offset>
-		<ChangesCount count="4"/>
+		<ChangesCount count="2"/>
 		<Changes>
 			<!-- Hexadecimal value/ 0.25dBm unit  0x50 : 20dBm, 0x28: 10dBm  -->
 			<Changes0 value="0x50"/>
-			<Changes1 value="0x2e"/>
-			<Changes2 value="0x48"/>
-			<Changes3 value="0x38"/>			
+			<Changes1 value="0x28"/>		
 		</Changes>
 	</Tag204>
 	<!-- Low Power Adaptive Control -->

@@ -39,9 +39,9 @@
 			<!-- 8DPSK Max Power / EDR 3M -->
 			<Changes4 value="0x0B"/>
 			<!-- Platform Power Fine Adjust EDR/BR -->
-			<Changes5 value="0x02"/>
+			<Changes5 value="0x00"/>
 			<!-- Platform Power Fine Adjust BLE -->
-			<Changes6 value="0x01"/>
+			<Changes6 value="0x00"/>
 		</Changes>
 	</Tag36>
 	<!-- Debug Control -->
@@ -96,24 +96,24 @@
 		<ChangesCount count="11"/>
 		<Changes>
 			<!-- Hexadecimal value -->
-			<!-- Advertising Power Level -->			
+			<!-- Advertising Power Level -->
 			<Changes0 value="0x09"/>
 			<!-- Scan Request Power Level -->
 			<Changes1 value="0x09"/>
 			<!-- Connection Power Level -->
-			<Changes2 value="0x09"/>
+			<Changes2 value="0x0A"/>
 			<!-- Broadcaster Power Level -->
 			<Changes3 value="0x09"/>
 			<!-- MultiAdv high Tx Power Level -->
 			<Changes4 value="0x09"/>
 			<!-- MultiAdv max Tx Power Level -->
-			<Changes5 value="0x09"/>
+			<Changes5 value="0x0A"/>
 			<!-- max PL individual phy enable -->
 			<Changes6 value="0x01"/>			
 			<!-- 1M PHY max PL -->
-			<Changes7 value="0x09"/>
+			<Changes7 value="0x0A"/>
 			<!-- 2M PHY max PL -->
-			<Changes8 value="0x09"/>
+			<Changes8 value="0x0A"/>
 			<!-- 125k coded phy max PL -->
 			<Changes9 value="0x09"/>			
 			<!-- 500k coded phy max PL -->
