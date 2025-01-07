@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gts9wifi
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gts9wifi/proprietary/vendor/usr/idc/hall_wacom.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/hall_wacom.idc \
-    vendor/samsung/gts9wifi/proprietary/vendor/usr/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/sec_e-pen.idc \
-    vendor/samsung/gts9wifi/proprietary/vendor/usr/idc/wacom_hall.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/wacom_hall.idc \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/audconf/OPEN/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/acdb_cal.acdb \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/audconf/OPEN/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFileXml.qwsp \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/audio/sku_kalama/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths.xml \
