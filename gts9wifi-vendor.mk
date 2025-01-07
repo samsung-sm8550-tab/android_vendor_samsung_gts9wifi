@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_veml3328_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_veml3328_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_veml3328_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_veml3328_1.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/veml3328_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/veml3328_0.json \
-    vendor/samsung/gts9wifi/proprietary/vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6490/WCNSS_qcom_cfg.ini \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/GTS9_ANA38407_AMSA10FA01.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/GTS9_ANA38407_AMSA10FA01.dat \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mbn \
