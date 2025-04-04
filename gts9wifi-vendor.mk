@@ -40,8 +40,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_veml3328_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_veml3328_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_veml3328_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_veml3328_1.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/veml3328_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/veml3328_0.json \
+    vendor/samsung/gts9wifi/proprietary/vendor/etc/situation_audio_policy_volumes_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/situation_audio_policy_volumes_sec.xml \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/GTS9_ANA38407_AMSA10FA01.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/GTS9_ANA38407_AMSA10FA01.dat \
+    vendor/samsung/gts9wifi/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mbn \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/a740_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mdt \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/abov/a96t396_gts9_wifi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abov/a96t396_gts9_wifi.bin \
@@ -50,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/cs35l45-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l45-dsp1-spk-prot-calib.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/cs35l45-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l45-dsp1-spk-prot.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/cs35l45-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l45-dsp1-spk-prot.wmfw \
+    vendor/samsung/gts9wifi/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/hpbtfw21.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/hpbtfw21.tlv \
     vendor/samsung/gts9wifi/proprietary/vendor/firmware/hpnv21.b9a:$(TARGET_COPY_OUT_VENDOR)/firmware/hpnv21.b9a \
@@ -191,6 +194,8 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.statsregeneration \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
+    com.qti.settings.sm8550 \
+    com.qti.stats.common \
     com.qualcomm.mcx.distortionmapper \
     camera.qcom \
     com.qti.chi.offline \
@@ -204,9 +209,16 @@ PRODUCT_PACKAGES += \
     libcamxswispiqmodule \
     libchifeature2 \
     libcom.qti.chinodeutils \
+    libhypermotion_interface \
     libsec2qc_conversion \
     libthirdparty_zoomtranslator_imp \
     libtriplecam_image_optical_zoom \
+    libvdis.uniplugin@1.0 \
     sensors.grip \
     sensors.ssc \
-    factory.ssc
+    libaudiosaplus_sec \
+    libsamsungSoundbooster_plus \
+    libswdap \
+    libswspatializer \
+    factory.ssc \
+    vendor.samsung.hardware.thermal@1.0-service
