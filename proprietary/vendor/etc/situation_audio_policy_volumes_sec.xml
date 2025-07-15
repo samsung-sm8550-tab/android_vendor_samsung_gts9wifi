@@ -3,7 +3,7 @@
     <situations>
         <situation type="stv_call_connection" stream="AUDIO_STREAM_VOICE_CALL">
             <volume device="AUDIO_DEVICE_OUT_SPEAKER">
-                  114,  161,  227,  320,  452,  639,  902, 1274, 1800
+                    0,  161,  227,  320,  452,  639,  902, 1274, 1800
             </volume>
             <volume device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO">
                  1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050
@@ -37,7 +37,7 @@
         </situation>
         <situation type="stv_ringback" stream="AUDIO_STREAM_VOICE_CALL">
             <volume device="AUDIO_DEVICE_OUT_SPEAKER">
-                   114,  161,  227,  320,  452,  639,  902, 1274, 1800
+                  114,  161,  227,  320,  452,  639,  902, 1274, 1800
             </volume>
             <volume device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO">
                  1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050, 1050
@@ -54,7 +54,7 @@
         </situation>
         <situation type="stv_voip_via_smart_view" stream="AUDIO_STREAM_VOICE_CALL">
             <volume device="AUDIO_DEVICE_OUT_SPEAKER">
-                    0,  365,  515,  728, 1028, 1450, 2050, 2865, 4096
+                    0, 1220, 1450, 1727, 2050, 2439, 2865, 3445, 4096
             </volume>
         </situation>
         <situation type="stv_boot_sound" stream="AUDIO_STREAM_SYSTEM">
@@ -144,7 +144,7 @@
         </situation>
         <situation type="stv_burst_shot" stream="AUDIO_STREAM_ENFORCED_AUDIBLE">
             <volume device="AUDIO_DEVICE_OUT_SPEAKER">
-                    0,   29,   32,   36,   40,   45,   51,   57,   64,   80,  101,  127,  160,  202,  254,  320
+                    0,   23,   26,   29,   32,   36,   40,   45,   51,   64,   81,  102,  128,  161,  203,  245
             </volume>
             <volume device="AUDIO_DEVICE_OUT_USB_HEADSET">
                     0,   41,   52,   65,   82,  103,  129,  183,  258,  365,  516,  729, 1029, 1454, 2053, 2900
@@ -152,7 +152,7 @@
         </situation>
         <situation type="stv_camcording_start" stream="AUDIO_STREAM_ENFORCED_AUDIBLE">
             <volume device="AUDIO_DEVICE_OUT_SPEAKER">
-                    0,   36,   40,   45,   50,   56,   63,   71,   80,  101,  127,  160,  201,  253,  318,  400
+                    0,   23,   26,   29,   32,   36,   40,   45,   50,   63,   79,  100,  126,  158,  199,  250
             </volume>
             <volume device="AUDIO_DEVICE_OUT_USB_HEADSET">
                     0,    4,    5,    6,    7,    9,   11,   16,   22,   31,   44,   62,   88,  125,  175,  250
@@ -160,7 +160,7 @@
         </situation>
         <situation type="stv_shutter" stream="AUDIO_STREAM_ENFORCED_AUDIBLE">
             <volume device="AUDIO_DEVICE_OUT_SPEAKER">
-                    0,   26,   29,   32,   36,   40,   45,   50,   56,   70,   88,  111,  140,  176,  222,  280
+                    0,   20,   22,   25,   28,   31,   35,   39,   44,   56,   71,   90,  113,  142,  179,  220
             </volume>
             <volume device="AUDIO_DEVICE_OUT_USB_HEADSET">
                     0,   10,   13,   16,   20,   25,   31,   44,   62,   88,  125,  175,  250,  350,  500,  700
