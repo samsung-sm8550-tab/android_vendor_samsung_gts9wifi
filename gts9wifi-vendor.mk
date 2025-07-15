@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/samsung/gts9wifi/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-qti.rc \
+    vendor/samsung/gts9wifi/proprietary/vendor/etc/permissions/vendor.samsung.hardware.telephony.remove_gsm_cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.samsung.hardware.telephony.remove_gsm_cdma.xml \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_ak991x_5.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_5.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_bridge_driver_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_bridge_driver_0.json \
     vendor/samsung/gts9wifi/proprietary/vendor/etc/sensors/config/kailua_veml3328_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_veml3328_0.json \
@@ -94,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts9wifi/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin
 
 PRODUCT_PACKAGES += \
+    btaudio_offload_if \
     com.qti.eeprom.sec2qcconversion \
     com.qti.eisv2 \
     com.qti.eisv3 \
@@ -197,12 +200,26 @@ PRODUCT_PACKAGES += \
     com.qti.settings.sm8550 \
     com.qti.stats.common \
     com.qualcomm.mcx.distortionmapper \
+    android.hardware.bluetooth.audio-impl-qti \
+    android.hardware.bluetooth@1.0-impl-qti \
+    android.hardware.bluetooth@1.1-impl-qti \
     camera.qcom \
     com.qti.chi.offline \
     com.qti.chi.override \
+    vendor.qti.hardware.bluetooth_audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
+    vendor.qti.hardware.bluetooth_sar@1.1-impl \
+    vendor.qti.hardware.btconfigstore@1.0-impl \
+    vendor.qti.hardware.btconfigstore@2.0-impl \
+    vendor.qti.hardware.bttpi-impl \
     libTsAf_TS9Q \
     libTsAwbFront_GTS9 \
     libTsAwb_GTS9 \
+    libbluetooth_audio_session_aidl_qti \
+    libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
+    libbt-hidlclient \
+    libbtnv \
     libcamerapostproc \
     libcamxexternalformatutils \
     libcamximageformatutils \
@@ -211,6 +228,8 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libhypermotion_interface \
     libsec2qc_conversion \
+    libsehbluetooth_audio_session_aidl \
+    libsoc_helper \
     libthirdparty_zoomtranslator_imp \
     libtriplecam_image_optical_zoom \
     libvdis.uniplugin@1.0 \
@@ -218,7 +237,16 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     libaudiosaplus_sec \
     libsamsungSoundbooster_plus \
-    libswdap \
-    libswspatializer \
+    vendor.qti.hardware.bluetooth_sar@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.1 \
+    vendor.qti.hardware.bttpi-V2-ndk \
+    vendor.qti.hardware.fm@1.0_vendor \
+    vendor.samsung.hardware.bluetooth.a2dpsink@1.0 \
+    vendor.samsung.hardware.bluetooth.audio-V1-ndk \
+    vendor.samsung.hardware.bluetooth.audio-impl \
+    vendor.samsung.hardware.bluetooth@2.0 \
+    bttpi-saidl.xml \
     factory.ssc \
-    vendor.samsung.hardware.thermal@1.0-service
+    android.hardware.bluetooth@1.1-service-qti \
+    vendor.samsung.hardware.thermal@1.0-service \
+    qms
