@@ -236,6 +236,8 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     libaudiosaplus_sec \
     libsamsungSoundbooster_plus \
+    libswdap \
+    libswspatializer \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.bttpi-V2-ndk \
