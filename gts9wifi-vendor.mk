@@ -214,6 +214,8 @@ PRODUCT_PACKAGES += \
     libTsAf_TS9Q \
     libTsAwbFront_GTS9 \
     libTsAwb_GTS9 \
+    lib_SamsungRec_07010 \
+    lib_SoundAlive_play_plus_ver800 \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
