@@ -4234,6 +4234,50 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "audio.primary.kalama",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/audio.primary.kalama.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "liblog",
+                "libcutils",
+                "libaudioutils",
+                "libexpat",
+                "libhidlbase",
+                "libprocessgroup",
+                "libfmq",
+                "libutils",
+                "libar-pal",
+                "vendor.qti.hardware.pal@1.0-impl",
+                "vendor.qti.hardware.pal@1.0",
+                "vendor.qti.hardware.AGMIPC@1.0-impl",
+                "vendor.qti.hardware.AGMIPC@1.0",
+                "libagm",
+                "libsecaudioinfo",
+                "libsecaudiolevel",
+                "librecordalive",
+                "libspeakercalibration",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "camera.qcom",
     owner: "samsung",
     strip: {
@@ -4734,6 +4778,78 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libagm",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libagm.so",
+            ],
+            shared_libs: [
+                "libar-gsl",
+                "liblog",
+                "liblx-osal",
+                "libaudioroute",
+                "libats",
+                "libcutils",
+                "libtinyalsa",
+                "libaudio_log_utils",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libar-pal",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libar-pal.so",
+            ],
+            shared_libs: [
+                "libar-gsl",
+                "liblog",
+                "libexpat",
+                "liblx-osal",
+                "libaudioroute",
+                "libcutils",
+                "libutilscallstack",
+                "libagmclient",
+                "libPeripheralStateUtils",
+                "libtinyalsa",
+                "libtinycompress",
+                "libsecaudioinfo",
+                "libsecaudiolevel",
+                "librecordalive",
+                "libspeakercalibration",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_aidl_qti",
     owner: "samsung",
     strip: {
@@ -5159,6 +5275,96 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libqc2audio_hwaudiocodec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libqc2audio_hwaudiocodec.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libqc2audio_base",
+                "libqc2audio_platform",
+                "libqc2audio_utils",
+                "libqc2audio_basecodec",
+                "libcodec2_vndk",
+                "libstagefright_foundation",
+                "libpalclient",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libqfp_sensortest",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libqfp_sensortest.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librecordalive",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/librecordalive.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "lib_SamsungRec_07010",
+                "libsecaudioinfo",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libsec2qc_conversion",
     owner: "samsung",
     strip: {
@@ -5200,6 +5406,75 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "vendor.samsung.hardware.bluetooth.audio-V1-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsfp_sensor",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsfp_sensor.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libutils",
+                "libbinder_ndk",
+                "libhardware",
+                "libsfp_teegw",
+                "android.hardware.biometrics.fingerprint-V2-ndk",
+                "android.hardware.biometrics.common-V2-ndk",
+                "vendor.samsung.hardware.biometrics.fingerprint-V1-ndk",
+                "libsynaFpSensorTestNwd",
+                "libegis_fp_normal_sensor_test",
+                "libgf_in_system_lib",
+                "libqfp_sensortest",
+                "liblog",
+                "libcrypto",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsfp_teegw",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsfp_teegw.so",
+            ],
+            shared_libs: [
+                "libQSEEComAPI",
+                "libdmabufheap",
+                "libbase",
+                "liblog",
+                "libutils",
+                "libcutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -5521,8 +5796,8 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libprofileparamstorage",
                 "libspatializerparamstorage",
-                "spatializer-aidl-cpp",
                 "libsecaudiocoreutils",
+                "spatializer-aidl-cpp",
                 "libc++",
                 "libc",
                 "libm",
